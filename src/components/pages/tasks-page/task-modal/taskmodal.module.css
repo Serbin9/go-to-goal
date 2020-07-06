@@ -1,0 +1,184 @@
+.modal_container {
+  margin: 0 auto;
+  width: 280px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_form {
+  color: #858598;
+  font-weight: 900;
+  font-family: "Montserrat";
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.input_task {
+  width: 235px;
+  border-width: 0px 0px 1px 0px;
+  border-color: rgb(224, 224, 224);
+  border-style: solid;
+  font-weight: 400;
+  font-family: "Montserrat";
+  outline: none;
+  margin-bottom: 2.5rem;
+  padding: 0.2rem 0;
+  color: #42414b;
+}
+
+.input_task::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.input_options_section {
+  position: relative;
+  width: 235px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat";
+  margin-bottom: 2rem;
+}
+
+.input_options {
+  border: none;
+  width: 270px;
+  padding: 2px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  position: relative;
+  font-size: 14px;
+}
+
+Select__control {
+  border-width: 0px 0px 1px 0px;
+}
+
+.Select-control {
+  border-width: 0px 0px 1px 0px;
+}
+
+
+.input_options_input {
+  border-color: rgb(224, 224, 224);
+  width: 235px;
+  border-width: 0px 0px 1px 0px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  outline: none;
+  font-weight: 400;
+  color: #42414b;
+  margin-bottom: 40px;
+}
+
+.input_options_input::placeholder{
+  font-size: 12px;
+}
+
+.button {
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Montserrat";
+  border: none;
+  color: #ffffff;
+  font-weight: 900;
+  width: 200px;
+  height: 48px;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(245, 213, 59) 0%,
+    rgb(241, 195, 65) 55%,
+    rgb(236, 177, 70) 100%
+  );
+  outline: none;
+}
+@media (min-width: 768px) {
+  .modal_container {
+    background-image: url(../../../../assets/images/icons/present-box/gift_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    background-position-x: -8%;
+    background-position-y: 116%;
+    width: 720px;
+    height: 500px;
+    padding: 4rem;
+  }
+
+  .form {
+    align-items: flex-start;
+  }
+
+  .input_task {
+    width: 570px;
+    color: #42414b;
+  }
+
+  .input_options_section {
+    width: 570px;
+  }
+
+  .input_options {
+    width: 570px;
+  }
+
+  .input_options_input {
+    color: #42414b;
+    width: 570px;
+  }
+
+  .button {
+    align-self: flex-end;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal_container {
+    width: 850px;
+    height: 383px;
+    background-image: none;
+    padding: 3rem;
+  }
+
+  .input_options_section {
+    width: 260px;
+  }
+
+  .input_options_input {
+    width: 260px;
+    height: 38px;
+    margin-left: 55px;
+    margin-bottom: 0px;
+    color: #42414b;
+  }
+
+  .button {
+    margin-top: 0px;
+    margin-right: 90px;
+  }
+
+  .form {
+    align-items: center;
+  }
+
+  .input_options {
+    width: 260px;
+  }
+
+  .inputs_containers {
+    margin-bottom: 8px;
+    width: 575px;
+    display: flex;
+  }
+}
